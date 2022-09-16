@@ -51,5 +51,6 @@ PS C:\Teamsniper> python .\Teamsniper.py -a Authkey -s "Password,Mail"
 ```
 
 # Credits
-Credit goes to [@HackingLZ](https://twitter.com/HackingLZ) the CTO of TrustedSec for sharing this on his twitter, and thanks for [@billtoulas](https://twitter.com/billtoulas) for posting about the unencrypted (Cleartext) way of storing the cookies
+1. [@billtoulas](https://twitter.com/billtoulas) for posting about the unencrypted (Cleartext) way of storing the cookies.
+2. [@HackingLZ](https://twitter.com/HackingLZ) the CTO of TrustedSec for sharing this on twitter. 
 
