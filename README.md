@@ -40,4 +40,12 @@ python .\Teamsniper.py -s "Password,Mail,Database"
 And the final output should be in a output.txt file.
 **output**
 ```Bash
+PS C:\Teamsniper> python .\Teamsniper.py -a Authkey -s "Password,Mail"
+[+] Auth-key added to headers
+[+] Keyword: Password
+[+] Results found: 3
+[+] saved output.
+[+] Keyword: Mail
+[+] Results found: 2
+[+] saved output.
 ```
