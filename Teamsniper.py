@@ -36,7 +36,7 @@ def DBParser(DBPath):
             Cookies[row[0]] = "%s" % row[1]
             return Cookies
             
-    print ( "\n[!] couldn't fetch the AuthToken Header!! This teams account maybe personal!" ); exit(0)
+    print ( "\n[!] Couldn't fetch the AuthToken Header! This teams account may be personal!" ); exit(0)
 
 def RequestParser(unparsed):
 
@@ -77,7 +77,7 @@ def PrepareRequest(searchwords, AuthHeader):
 
 if __name__ == '__main__':
     
-    parser = argparse.ArgumentParser(description='Teamsniper is a tool for fetching the given keyworks in Microsoft Teams.')
+    parser = argparse.ArgumentParser(description='Teamsniper is a tool for fetching the given keywords in Microsoft Teams.')
     parser.add_argument("-d", "--database", help="Sqlite Database for the Cookies, default: AppData\Microsoft\Teams\Cookies, AppData\Microsoft\Teams\Local Storage\leveldb",required=False)
     parser.add_argument("-a", "--Authtoken", help="Auth-Token File Location, by default the auth token key will be extracted from the Sqlite Database.",required=False)
     parser.add_argument("-s", "--search", help="Keywords, by default: Password. You can add multiple keywords ex: Passwords,Admin,Database",required=False)
