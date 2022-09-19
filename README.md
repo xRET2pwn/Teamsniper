@@ -9,7 +9,7 @@ Teamsniper is a tool for fetching keywords in a Microsoft Teams such as (passwor
 ```
 usage: Teamsniper.py [-h] [-d DATABASE] [-a AUTHTOKEN] [-s SEARCH]
 
-Teamsniper is a tool for fetching the given keyworks in Microsoft Teams.
+Teamsniper is a tool for fetching the given keywords in Microsoft Teams.
 
 options:
   -h, --help            show this help message and exit
